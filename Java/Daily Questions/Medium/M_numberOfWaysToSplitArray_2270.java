@@ -1,4 +1,5 @@
 class Solution {
+    // Time Complexity: O(n) | Space Complexity: O(1)
     public int waysToSplitArray(int[] nums) {
         long totalSum = 0;
         for (int n : nums){
