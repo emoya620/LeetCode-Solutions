@@ -4,12 +4,12 @@ class Solution {
         return dfs(0,0, nums);
     }
 
-    public int dfs(int index, int total, int[] nums){
-        if (index == nums.length){
+    public int dfs(int idx, int total, int[] nums){
+        if (idx == nums.length){
             return total;
         }
 
-        return dfs(index + 1, total ^ nums[index], nums) + dfs(index + 1, total, nums);
+        return dfs(idx + 1, total ^ nums[idx], nums) + dfs(idx + 1, total, nums);
     }
 }
 
