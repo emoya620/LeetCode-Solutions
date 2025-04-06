@@ -27,7 +27,6 @@ class Solution {
                 maxSize--;
             }
         }
-        
         return result;
     }
 }
