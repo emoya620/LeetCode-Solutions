@@ -1,3 +1,4 @@
+// Time Complexity: O(n * log(n)) | Space Complexity: O(n)
 class Solution {
     public long countFairPairs(int[] nums, int lower, int upper) {
         Arrays.sort(nums);
