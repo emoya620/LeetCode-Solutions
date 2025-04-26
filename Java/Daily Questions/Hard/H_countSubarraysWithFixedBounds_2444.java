@@ -1,3 +1,4 @@
+// Time Complexity: O(n) | Space Complexity: O(1)
 class Solution {
     public long countSubarrays(int[] nums, int minK, int maxK) {
         long ans = 0;
